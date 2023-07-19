@@ -1,0 +1,29 @@
+Modules Needed for the Credit Card Spent Prediction Model:-
+    1. Pandas
+    2. Numpy
+    3. Scikit-learn
+    4. Matplotlib (Optional)
+    5. seaborn
+    6. warnings (For removing warnings)
+    7. Logger (For Logging project related information & changes)
+    8. Various Regressor Modules, Feature Selection Modules for Model Building & selection, Performimg various EDA , Feature Selection.
+    9. Datetime
+        
+Data cleaning & Model Creation & Selection steps:-
+    
+    1. Imported all the data that has been provided by the source.
+    2. created a Profile report using pamdas profilling
+    3. created various functions for Nullvalue treatment, Outlier treatment, Model Evaluation function & Plotting functions for
+       the purpose of automation
+    4. Merged different dataset to create a Customer 360 file by performing various EDA & variavle reduction technique.
+    5. Intiated Model building by using various Regressor technique and evaluated the model on the basis of MAE, MSE, RMSE, RMSPE.
+    6. Each Model has been created with best parameters which were found using "Gridsearch CV".
+    7. Best Model has been selected & Saved in a pickle file under "source" folder.
+    8. Final predicted values of credit Card spent Prediction has Saved in a Excel file under "source" folder 
+       under the name predicted_values.xlsx.
+    9. Pandas profilling reports has been saved under "Reports Folder"
+    10. Dataset used for model has been saved under "Data Folder"
+    11. CC_spent_Prediction.ipynb(consists of code realted to EDA, Feature Selection,Model Building &
+        Model Selection)
+    12 Model Pickle file & Logger.py(which consists the code for Logging information or Messages 
+       into "Log" folder under "Source" folder) 
