@@ -1,0 +1,17 @@
+[ 2023-07-10 01:16:53,188 ] 14 visions.backends - INFO - Pandas backend loaded 1.5.3
+[ 2023-07-10 01:16:53,206 ] 25 visions.backends - INFO - Numpy backend loaded 1.23.5
+[ 2023-07-10 01:16:53,206 ] 37 visions.backends - INFO - Pyspark backend NOT loaded
+[ 2023-07-10 01:16:53,207 ] 43 visions.backends - INFO - Python backend loaded
+[ 2023-07-10 01:17:18,042 ] 1 root - INFO - Importing all the datasets needed
+[ 2023-07-10 01:17:27,483 ] 1 root - INFO - creating a Profiling report for customer demographics & customer behavior
+[ 2023-07-10 01:17:27,619 ] 1 root - INFO - creating various functions for Nullvalue treatment, Outlier treatment, Model Evaluation function & Plotting functions
+[ 2023-07-10 01:17:27,640 ] 1 root - INFO - Initializing Data cleaning, Null value treatment, outlier treatment, encoding & standarding the data by log method
+[ 2023-07-10 01:17:44,477 ] 1 root - INFO - Data cleaning, Encoding & Standardization comleted
+[ 2023-07-10 01:17:44,487 ] 1 root - INFO - Initializing Feature selection by using Recursive Feature Elimination & Select K-Best method
+[ 2023-07-10 01:17:45,570 ] 1 root - INFO - Feature selection & Train Test split of the data completed
+[ 2023-07-10 01:17:45,614 ] 1 root - INFO - Intializing Model building & Best Model selection
+[ 2023-07-10 01:18:42,499 ] 1 root - INFO - Model Building & Selection comleted. Select Random Forest Model as it shows the best accuracy for both Train & Test Data among all the models without having the issue of overfitting or underfitting
+[ 2023-07-10 01:18:42,528 ] 1 root - INFO - Saving Random Forest Model into a pickle file
+[ 2023-07-10 01:18:42,542 ] 9 root - INFO - pickle file saved
+[ 2023-07-10 01:18:42,568 ] 1 root - INFO - Predicting spent for Final data of 5000 records as requested
+[ 2023-07-10 01:18:42,870 ] 9 root - INFO - Final Prediction saved as excel file under the name predicted_values.xlsx
